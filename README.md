@@ -69,7 +69,7 @@ python3 app.py
 <br /> 
 
 # 🔥 Used
-<img src="https://img.shields.io/badge/flask-000000?style=flat&logo=flask&logoColor=white"/> <img src="https://img.shields.io/badge/html5-E34F26?style=flat&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/css3-1572B6?style=flat&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat&logo=javascript&logoColor=white"/> <img src="https://img.shields.io/badge/numpy-013243?style=flat&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/jupyter-F37626?style=flat&logo=jupyter&logoColor=white"/> <img src="https://img.shields.io/badge/kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white"/>
+<img src="https://img.shields.io/badge/flask-000000?style=flat&logo=flask&logoColor=white"/> <img src="https://img.shields.io/badge/html5-E34F26?style=flat&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/css3-1572B6?style=flat&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/numpy-013243?style=flat&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/jupyter-F37626?style=flat&logo=jupyter&logoColor=white"/> <img src="https://img.shields.io/badge/kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white"/>
 
 
 
