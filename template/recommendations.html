@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>추천 결과</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/recommendations.css') }}">
+</head>
+<body>
+    <h1>영화추천 결과</h1>
+    <ul>
+        {% for title, correlation, genre in result %}
+            <li>{{ title }} (상관계수: {{ correlation }}) - 장르: {{ genre }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

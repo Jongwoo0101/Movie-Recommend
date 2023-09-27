@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영화추천 프로그램</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>영화추천 프로그램</h1>
+    <form action="/recommend" method="post">
+        <label for="movie_title">영화 제목:</label>
+        <input type="text" name="movie_title" id="movie_title">
+        <input type="submit" value="추천">
+    </form> 
+</body>
+</html>
