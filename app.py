@@ -82,7 +82,13 @@ def index():
 def recommend_movie():
     input_movie = request.form['movie_title']
     recommend_result = recommend(input_movie, matrix, 10, similar_genre=True)
-    return render_template('recommendations.html', result=recommend_result)
+    
+    # 데이터가 없는 경우 메시지 설정
+    if not recommend_result:
+        message = "죄송합니다. 데이터에 해당 영화가 없습니다. 영화 이름을 정확히 입력해주세요!"
+        return render_template('recommendations.html', message=message)
+    else:
+        return render_template('recommendations.html', result=recommend_result)
 
 if __name__ == '__main__':
     app.run(debug=True)
